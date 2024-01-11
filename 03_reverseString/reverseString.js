@@ -1,4 +1,5 @@
-const reverseString = function() {
+const reverseString = function(str) {
+	return str.split("").reduce((acc, char) => char + acc, "");
 
 };
 
